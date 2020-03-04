@@ -73,16 +73,20 @@ color: #fff;
     margin: 8% 0;
 }
 /*************show-templates**********************/
-.show-templates{
+.show-templates .container-fluid{
     background-image: url('../images/alarm-clock-and-analog-camera-on-wooden-desk-3609112.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding: 5% 0;
     
+}
+.show-templates h2{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-family: 'Righteous';
+    width: 80%;
 }
 .show-templates .flex-column{
     width: 35%;
-    padding-right: 5%;
 }
 .show-templates h2, p{
     color: rgb(68, 67, 67);
@@ -90,12 +94,17 @@ color: #fff;
 
 .show-templates p{
     width: 80%;
+    font-family: 'Ubuntu';
+    margin-bottom: 6%;
 }
 .show-templates .btn-danger{
     width: 45%; 
-    padding: 7px 5px;
+    padding: 2% 4%;
     text-transform: uppercase;
+    margin-bottom: 15%;
+
 }
+/**** services *****/
 .services{
     margin: 6% 0;
 }
