@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'lato';
+}
+
+/****navbar section*****/
+.navbar-brand{
+    font-family: 'pacifico';
+    font-size: 2rem;
+    color: lightcoral !important;
+}
+.nav-link{
+    color: black !important;
+    padding: 10px !important;
+    font-family: 'roboto condensed';
+}
+.active .nav-link{
+    color: #00E8e8 !important;
+}
+.nav-item:hover .nav-link{
+    color: #00E8e8 !important;
+}
+.nav-right-btn{
+    padding: 10px 30px;
+    margin-right: 10px;
+    box-shadow: none !important;
+    font-size: 18px;
+    transition: all .3s ease-in;
+}
+.nav-right-btn:hover{
+    color: #fff;
+    background-color: #00E8e8;
+}
+/*****start main header*********/
+.main-content {
+    background-image: url('../images/architecture-buildings-business-city-303159.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main-content p, .main-content h1, .show-templates h2{
+font-family: 'Righteous';
+color: #fff;
+}
+.main-content h1{
+    margin-top: 15%;
+    margin-bottom: 3%;
+    font-size: 50px;
+}
+.main-content p{
+    font-size: 25px;
+    padding-left: 5%;
+
+}
+.main-btn .btn1{
+    margin-left:20% ;
+    background-color: black;
+} 
+.main-btn .btn2{
+    background-color: #fff;
+    color: black;
+}
+.btn1, .btn2{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    box-shadow: none !important;
+    border: none;
+}
+/******features*******/
+.section-features{
+    margin: 8% 0;
+}
+/*************show-templates**********************/
+.show-templates{
+    background-image: url('../images/alarm-clock-and-analog-camera-on-wooden-desk-3609112.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 0;
+    
+}
+.show-templates .flex-column{
+    width: 35%;
+    padding-right: 5%;
+}
+.show-templates h2, p{
+    color: rgb(68, 67, 67);
+}
+
+.show-templates p{
+    width: 80%;
+}
+.show-templates .btn-danger{
+    width: 45%; 
+    padding: 7px 5px;
+    text-transform: uppercase;
+}
+.services{
+    margin: 6% 0;
+}
+.services i{
+    color: #00E8e8;
+}
+
+
+/************join us****************/
+.join-us .col-md-7, .col-md-5{
+    margin: 6% 0;
+}
+.join-us a{
+    color: lightseagreen;
+    font-size: 40px;
+}
+.join-us p{
+    color: #fff;
+    margin-top: 7%;
+    font-size: 25px;
+    font-family: 'Roboto Condensed';
+}
